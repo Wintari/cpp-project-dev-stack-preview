@@ -310,15 +310,6 @@ graph TB
         
         Qt --> Executable
     end
-    
-    subgraph "Внешние системы"
-        GitLab
-        Artifactory
-    end
-    
-    GitLab --> SourceCode
-    Executable --> Artifactory
-    TestResults --> GitLab
 ```
 
 ### Процесс непрерывной интеграции (CI)
