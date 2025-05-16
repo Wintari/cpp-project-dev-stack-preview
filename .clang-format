@@ -27,6 +27,7 @@ AllowShortLoopsOnASingleLine: false
 AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: false
 AlwaysBreakTemplateDeclarations: Yes
+AttributeMacros: ['UNLIKELY'I]
 BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: None
